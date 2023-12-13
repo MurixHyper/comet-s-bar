@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@500&family=Playfair+Display&display=swap");
+
+.contact-main {
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.contact-main h2 {
+  font-size: 60px;
+}
+
+.contact-main p {
+  font-size: 30px;
+}
+
+.contact-map {
+  width: 600px;
+  height: 450px;
+}
+
+.contact-general img {
+  width: 400px;
+  height: 350px;
+}

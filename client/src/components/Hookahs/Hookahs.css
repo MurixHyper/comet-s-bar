@@ -1,0 +1,13 @@
+.hookahs-menu {
+  padding: 0 100px;
+}
+
+.hookahs-header {
+  font-size: 50px;
+}
+
+.hookahs-header,
+.hook {
+  color: #fff;
+  font-family: "Anonymous Pro", monospace;
+}

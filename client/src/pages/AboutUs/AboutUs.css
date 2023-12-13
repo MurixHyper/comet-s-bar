@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+.aboutus-header {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.aboutus {
+  text-align: center;
+}
+
+.aboutus-text {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+.aboutus-imagelr img {
+  width: 600px;
+  height: 400px;
+}
+
+.aboutus-container {
+  display: flex;
+  height: 400px;
+  padding: 0 100px;
+}
+
+.aboutus-right p {
+  text-align: right;
+}
+
+.aboutus-left p {
+  text-align: left;
+}
+
+.aboutus-content,
+.aboutus-mission {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  margin: 0 300px;
+}

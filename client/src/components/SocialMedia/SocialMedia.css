@@ -1,0 +1,16 @@
+.social-media {
+  size: 30px;
+  transform: scale(2);
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social {
+  display: "flex";
+  align-items: "center";
+}

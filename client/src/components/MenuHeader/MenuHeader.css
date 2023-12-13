@@ -1,0 +1,11 @@
+.menuheader-header {
+  color: #fff;
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  font-size: 40px;
+}
+
+.menuheader-header img {
+  width: 350px;
+  height: 300px;
+}

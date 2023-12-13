@@ -1,0 +1,65 @@
+.contactform-main {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.contactform-left-part {
+  width: 40%;
+  padding: 30px;
+}
+
+.contactform-right-part {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 30px;
+}
+
+.contactform-group-text {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.contactform-group-input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.contactform-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.contactform-message {
+  height: 150px;
+  padding: 10px 15px;
+}
+
+.contactform-form-button {
+  font-family: "Playfair Display";
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.contactform-text-right {
+  width: 100%;
+}
+
+.contactform-form {
+  margin: 0 100px;
+}
+
+.contactform-group-message {
+  padding-right: 30px;
+}

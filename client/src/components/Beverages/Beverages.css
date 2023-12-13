@@ -1,0 +1,15 @@
+.beverages-cards {
+  margin: 0 -7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.beverages-title {
+  width: 100%;
+  color: blueviolet;
+  font-size: 24px;
+}
+
+.beverages-title hr {
+  border: 1px solid blueviolet;
+}

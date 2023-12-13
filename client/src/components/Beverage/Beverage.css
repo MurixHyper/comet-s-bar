@@ -1,0 +1,64 @@
+.beverage-card {
+  background-color: #1a1a1a;
+  color: rgb(0, 200, 200);
+  margin: 0 7px;
+  width: 30% !important;
+  margin-bottom: 15px;
+  padding: 7px 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  min-height: 300px;
+  position: relative;
+}
+
+.title {
+  margin-top: 10px;
+}
+.beverage-buttonBuy {
+  background-color: rgb(0, 255, 255);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  transition: 0.75s;
+}
+
+.beverage-buttonBuy:focus {
+  background-color: rgb(0, 255, 255);
+}
+
+.beverage-buttonBuy:hover {
+  background-color: rgb(0, 200, 200);
+  transition: 0.75s;
+}
+
+.beverage-delete-icon,
+.beverage-edit-icon {
+  color: rgb(0, 255, 255);
+  transition: 0.75s;
+  transform: scale(1.5);
+  margin: 0 12.5px;
+}
+
+.beverage-delete-icon:hover,
+.beverage-edit-icon:hover {
+  color: rgb(0, 200, 200);
+}
+
+.beverage-buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.beverage-icons {
+  display: flex;
+}
+
+.beverage-text {
+  line-height: 20px;
+}
+/* .coctail{
+    
+  } */

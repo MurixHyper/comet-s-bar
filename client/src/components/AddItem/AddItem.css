@@ -1,0 +1,48 @@
+.div-form-edit,
+.div-form-add {
+  background-color: #1a1a1a;
+  color: blueviolet;
+  border-radius: 10px;
+}
+.div-form-edit {
+  padding-top: 15px;
+}
+.div-form-add {
+  padding: 10px 15px;
+}
+
+.form-control {
+  background-color: #312f2f;
+  border: none;
+  color: aliceblue;
+}
+.form-control::placeholder {
+  color: aliceblue;
+}
+.form-control:focus {
+  background-color: #312f2f;
+}
+
+.button {
+  background-color: blueviolet;
+  border: none;
+  transition: 0.75s;
+}
+
+.button:focus {
+  background-color: blueviolet;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(115, 37, 189);
+}
+
+.additem-item {
+  background-color: #312f2f;
+  color: aliceblue;
+}
+.additem-form {
+  text-align: center;
+  margin-bottom: 40px;
+}

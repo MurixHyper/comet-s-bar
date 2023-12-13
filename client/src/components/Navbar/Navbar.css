@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #333;
+}
+
+.NavItem {
+  font-family: "Inter", sans-serif;
+  position: relative;
+  cursor: pointer;
+  color: blueviolet;
+  margin: 0 10px;
+  padding: 0 10px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.NavItem::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: blueviolet;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: 100% 50%;
+}
+
+.NavItem:hover {
+  color: blueviolet;
+}
+
+.NavItem:hover::after {
+  transform: scaleX(1);
+}
+
+.line {
+  transform: rotate(45deg);
+  width: 40px;
+  border: 1px blueviolet solid;
+}

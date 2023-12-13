@@ -1,0 +1,33 @@
+.menu-aside {
+  width: 20%;
+}
+
+.menu-container {
+  padding: 0 100px;
+}
+
+.menu-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-main {
+  width: 80%;
+}
+.menu-container header {
+  font-size: 48px;
+  color: blueviolet;
+  width: 100%;
+}
+.menu-container header hr {
+  border: 2px solid blueviolet;
+}
+.beveragePrice {
+  transition: 0.6s;
+}
+.beveragePriceUp {
+  color: rgb(15, 207, 15);
+}
+.beveragePriceDown {
+  color: rgb(210, 28, 28);
+}
